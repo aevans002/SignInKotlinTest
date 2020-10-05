@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SignIn Kotlin App</string>
+    <string name="action_settings">Settings</string>
+    <string name="backslash">/</string>
+    <string name="create_account">Create Account</string>
+    <string name="entry_created">Entry Created</string>
+    <string name="entry_exists">Entry Exists</string>
+    <string name="file_path">/saved.txt</string>
+    <string name="forbidden_char">Certain characters cannot be used</string>
+    <string name="new_line">/r</string>
+    <string name="name_short">The entered name is too short</string>
+    <string name="new_entry">New Entry</string>
+    <string name="new_user">New User Entry</string>
+    <string name="password">  Password:  </string>
+    <string name="password_short">The entered password is too short</string>
+    <string name="password_long">The entered username or password is too long</string>
+    <string name="password_mix">The password needs a mix of letters and numbers</string>
+    <string name="password_repeat">The password cannot have repeating characters</string>
+    <string name="seperator">,</string>
+    <string name="user">User:  </string>
+    <string name="user_name">Enter your user name</string>
+    <string name="user_password">Enter your password</string>
+    <string name="welcome">Hello, please sign in</string>
+    <string name="welcome_new_user">Welcome, please add an entry</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:text="@string/new_user"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userTxtBx"
+        android:inputType="text"
+        android:hint="@string/user_name"
+        android:layout_below="@+id/textView1" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user_password"
+        android:id="@+id/passwordTxtBx"
+        android:layout_below="@+id/userTxtBx" />
+    <Button
+        android:text="@string/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/createBtn"
+        android:textStyle="bold"
+        android:layout_below="@id/passwordTxtBx"/>
+
+</RelativeLayout>
